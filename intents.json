@@ -1,0 +1,133 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "tosca",
+      "patterns": [
+        "Tosca specialist",
+        "Who is Tosca expert?",
+        "Best Tosca developer"
+      ],
+      "responses": [
+        "Nithya M is an specialist",
+        "Swathi is an expert",
+        "Zhu Lei is very good"
+      ]
+    },
+    {
+      "tag": "ALM",
+      "patterns": [
+        "ALM experts?",
+        "ALM developers?"
+      ],
+      "responses": [
+        "Prasanna R is an Authority in this field",
+        "Dhanashree is an expert"
+      ]
+    },
+    {
+      "tag": "QA Dashboard",
+      "patterns": [
+        "Who is QA dashboard veteran?",
+        "Who is a skilled QA dashboard expert",
+        "Best QA dashboard specialist"
+      ],
+      "responses": [
+        "Narayan Davey is an expert in this matter",
+        "Jeyinul Abdeen is a specialist in this field"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Selenium",
+      "patterns": [
+        "Who is the best selenium developer",
+        "Skilled Selenium developer",
+        "Selenium expert in citi"
+      ],
+      "responses": [
+        "Prasanth P is a very experienced selenium developer",
+        "Keerthi VS is a very skillfull selenium developer",
+        "Shoaqing Pei is specialist in this field"
+      ]
+    },
+    {
+      "tag": "Karate Framework",
+      "patterns": [
+        "Who is a skilled Karate Framework developer",
+        "Skilled Karate Framework developer",
+        "Best Karate Framework specialist"
+      ],
+      "responses": [
+        "Naveen is an expert in this field",
+        "Anand is a very experienced Karate Framework specialist",
+        "Wenbao Luo is an authority in this field"
+      ]
+    },
+    {
+      "tag": "tosca position openings",
+      "patterns": [
+        "Available tosca opertunities",
+        "Tosca job openings",
+        "Tosca projects available"
+      ],
+      "responses": [
+        "Hansraj Jain has posted project 3 days ago",
+        "DABI business posted a requirement 1 week ago"
+      ]
+    },
+    {
+      "tag": "MEAN Stack openings",
+      "patterns": [
+        "Available MEAN stack oppurtunities",
+        "MEAN stack openings",
+        "MEAN stack projects available"
+      ],
+      "responses": [
+        "Beashaj posted a new project involving MEAN stack",
+        "Mohith posted a MEAN stack requirement 2 weeks ago"
+      ]
+    }
+  ]
+}
